@@ -22,8 +22,7 @@
    * void deleterecord() – to delete or remove a record permanently from system file
 
 ## Introduction
-Digital Memo is a console application, where the user can add, view, edit and delete records. Records can be added with many information such as duration of task, name,
-address, time and date.User can keep records of the important things they do in their daily life, like meetings, activities, etc. By storing these kind of data, user can 
+Digital Memo is a console application, where the user can add, view, edit and delete records.The user can add their details safely and it is not time consuming. This system makes easy to store daily records. The wholr project is designed in 'C' language. Records can be added with many information such as duration of task, name, address, time and date.User can keep records of the important things they do in their daily life, like meetings, activities, etc. By storing these kind of data, user can 
 refer to information whenever necessary. File handling has been effectively used to store the records.
 
 ## Research
