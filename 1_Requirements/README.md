@@ -44,24 +44,23 @@ So, this application is convenient platform for a user to manage, contacts, dail
 # 4W&#39;s and 1&#39;H
 
 ## Who:
+Only Admin who has an authorized acces through the password would be able to log in and perform storage, retrieval, deletion and manipulation of informative data of his choice.
 
-**TBD**
 
 ## What:
 
-**TBD**
+The proposed system allows the Admin to can add, view, edit and delete records. Records can be added with many information such as duration of task, name, address, time and date. 
 
 ## When:
-
-**TBD**
+The Admin can access the proposed system whenever he/she is wishing to. The proposed system makes Admin feel comforatble and easy to store impoetant data, as the proposed systeem provides safety, by requesting a password before the acceptance of any actions to be performed by the Admin.
 
 ## Where:
 
-**TBD**
+The information provided by the Admin/User is safely handled through file handling system. All the data provided by the Admin will be stored in a file and it would be updated for each and every action performed by the Admin.
 
 ## How:
 
-**TBD**
+The entire project is developed in 'C' language, which makes the user feel simple and the it can be used by each and everyone, since the output screen displayed to User is eaily understandable and can provide the input of information like about the meetings, activities, etc. for his ease of access in future.
 
 # Detail requirements
 ## High Level Requirements:
