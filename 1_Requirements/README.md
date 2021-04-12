@@ -29,12 +29,17 @@ refer to information whenever necessary. File handling has been effectively used
 ![Description](Link to Pic)
 -- Content 
 ## Cost and Features
-![Description](Link to Pic)
--- Content 
+Almost each person have their known’s who are living apart from him having some contacts details. It is a very complex task to store contact details manually at diaries and searching them page by page. A user also want to do some specific tasks in the future for that he always makes diaries or separate applications with limited memory size to store reminder data and large number of reminders. Side by side a user also has to complete any work at some specific dates. A person having large number of task to be done at different dead line dates also have to make manual entries in the separate applications or in the manual diaries and he have to check those notes daily to know about which project’s deadline date is reached. All these tasks are very time consuming and very complex. 
+
+## Drawbacks:
+As seen clearly a lot of time is spent and much effort is made for managing contact details of the known future activities times and submission dates of the projects. In today’s world which is growing, these all tasks should take minimum effort and less time. But the present system does not support this. In the present system user install and operate on three different applications to complete about written task which is very difficult and complex.
+
+
 ## Defining Our System
-    -- TBD
+I have developed Digital Memo application to makes ease the work of users by this computerised software. By this application a user can store contact details, retrieve contact details, set reminder for important meetings of works and make dead line notes on single platform. Thus the user can manage his contacts and daily working schedules through this application. This application avoids user to make manual contact diaries to store the contact address. A user who is working on system can set reminder for the important work while doing some another work. Reminder will remind him about that work. He can also set reminder message which will tell him what to do at which time by stealing his attention. 
+So, this application is convenient platform for a user to manage, contacts, daily work schedules and to enhance the punctuality of the user.
 ## SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
+
 
 # 4W&#39;s and 1&#39;H
 
