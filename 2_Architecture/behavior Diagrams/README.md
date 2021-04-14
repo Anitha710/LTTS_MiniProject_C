@@ -4,3 +4,7 @@ These Diagrams shows how the system behaves and interacts with itself and other 
 ## Use Case Diagram
 
 ![image](https://user-images.githubusercontent.com/64318581/114703075-78802b00-9d42-11eb-83d5-ec0643405f4f.png)
+
+## Activity Diagram 
+
+![image](https://user-images.githubusercontent.com/64318581/114749709-d592d580-9d70-11eb-858d-80ea0dbc5896.png)
