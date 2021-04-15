@@ -94,4 +94,4 @@ The entire project is developed in 'C' language, which makes the user feel simpl
 | LR04 | If user enters wrong password "Access Denied" message would be displayed | HR02 |  IMPLEMENTED  |
 | LR05 | User can also edit the record by entering the date and time of the record he would like to edit | HR03 |  IMPLEMENTED  |
 | LR06 | User can delete a particular record or the entire records of one particular day by entering specific details | HR04 |  IMPLEMENTED  |
-| LR05 | User can edit password by entering his old password and confirming the new passowrd. Hence, next time he can lofin with the new password created | HR05 |  IMPLEMENTED |
+| LR05 | User can edit password by entering his old password and confirming the new passowrd. Hence, next time he can login with the new password created | HR05 |  IMPLEMENTED |
