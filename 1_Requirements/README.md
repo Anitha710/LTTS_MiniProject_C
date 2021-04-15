@@ -39,6 +39,7 @@ As seen clearly a lot of time is spent and much effort is made for managing cont
 I have developed Digital Memo application to makes ease the work of users by this computerised software. By this application a user can store contact details, retrieve contact details, set reminder for important meetings of works and make dead line notes on single platform. Thus the user can manage his contacts and daily working schedules through this application. This application avoids user to make manual contact diaries to store the contact address. A user who is working on system can set reminder for the important work while doing some another work. Reminder will remind him about that work. He can also set reminder message which will tell him what to do at which time by stealing his attention. 
 So, this application is convenient platform for a user to manage, contacts, daily work schedules and to enhance the punctuality of the user.
 ## SWOT ANALYSIS
+![image](https://user-images.githubusercontent.com/64318581/114844640-9c05ad00-9df8-11eb-9566-28e36aacf198.png)
 
 
 # 4W&#39;s and 1&#39;H
