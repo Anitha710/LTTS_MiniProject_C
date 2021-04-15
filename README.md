@@ -8,3 +8,11 @@ Digital Memo is based on concept to generate Personal Daily Records and to add r
 In this console application, you can add, view, edit and delete records. Records can be added with many information such as duration of task, name, address, time and date. File handling has been effectively used to keep the records.
   
 In this project, you need to enter a password to view, edit or delete record. Password is not required to view the main menu or to add record. We have used password in other mini projects in code with C; what’s little different in this project is that you can edit the password within the application i.e, after executing or upon running the project 
+
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Design`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_Test_plan`      | Documents with test plans and procedures
