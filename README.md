@@ -4,8 +4,8 @@
 
 
 Build | Code Quality | Unity | Git Inspector
-|---------|----------|-----------|----------------
-[![C/C++ CI](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/c-cpp.yml)|[![Valgrind-check](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/valgrind.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/valgrind.yml)| [![Unity-Check](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/unity.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/unity.yml) | [![git inspector CI](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/gitinspector.yml)
+|---------|------------------|-----------|----------------
+[![C/C++ CI](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/c-cpp.yml)|[![Static Check](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/static_code_check.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/static_code_check.yml)[![Valgrind-check](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/valgrind.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/valgrind.yml)[![Dynamic-check](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/Dynamic_Code_Analysis.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/Dynamic_Code_Analysis.yml)|[![Unity-Check](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/unity.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/unity.yml) | [![git inspector CI](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Anitha710/LTTS_MiniProject_C/actions/workflows/gitinspector.yml)
 
  
 ## Project Information:
