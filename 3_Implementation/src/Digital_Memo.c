@@ -1,42 +1,4 @@
-#include<stdio.h>
-
-#include<stdlib.h>
-
-#include<conio.h>
-
-#include<string.h>
-
-// The following functions are required for this application
-
-int password();
-
-void addrecord();
-
-void viewrecord();
-
-void editrecord();
-
-void editpassword();
-
-void deleterecord();
-
-// A structure record is created
-struct record
-
-{
-
-    char time[6];
-
-    char name[30];
-
-    char place[25];
-
-    char duration[10];
-
-    char note[500];
-
-} ;
-
+#include "header.h"
 int main()
 
 {
