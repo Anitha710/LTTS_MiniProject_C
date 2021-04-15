@@ -1,6 +1,6 @@
 # Project Information:
 
-![image](https://user-images.githubusercontent.com/64318581/114827018-cbf78500-9de5-11eb-8a6d-1c274a506ecb.png)
+
  
 
 Digital Memo is based on concept to generate Personal Daily Records and to add records and update it. Here User can add their daily details safely and its not time consuming. Each Section contains high security so there is no chance of data loss. There’s maximum privacy to the recorded files. This system makes easy to store daily records. The whole project is designed in ‘C’ language and different variables and strings have been used for the development of this project. This mini project is easy to operate and easily understood by the users. This is a simple mini project in C, built as a console application without using any graphics features. It is easy to operate and understand by the users. There is no any error and warning contents in the project. The design is so simple that user won’t find it difficult to use and navigate.
