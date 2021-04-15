@@ -26,8 +26,16 @@ Digital Memo is a console application, where the user can add, view, edit and de
 refer to information whenever necessary. File handling has been effectively used to store the records.
 
 ## Research
-![Description](Link to Pic)
--- Content 
+During the past decade, increasing attention has been focus on the Technology of Computer software. As manual computing system becomes more numerous, complex the need for the systematic approaches development becomes increasingly apparent. 
+The objective of project work-Digital Memo is designing a convenient frame work including Adding records, edit, view and delete. A primary goal of this project is to develop good software to overcome the existing problem caused by manual systems. 
+This application is developed for the users who want to store reminders and dead line notes through single application. The users who have computer knowledge will get more advantage from this application. 
+Although every care has been taken to check mistakes through verifications and validations, yet it is difficult to claim absolute perfection.
+
+## Benefits
+
+Esaily unseratndable and used by novice users also. The user can access the information stored whenever needed and helps to reduce manual strength of carrying a dairy.
+
+
 ## Cost and Features
 Almost each person have their known’s who are living apart from him having some contacts details. It is a very complex task to store contact details manually at diaries and searching them page by page. A user also want to do some specific tasks in the future for that he always makes diaries or separate applications with limited memory size to store reminder data and large number of reminders. Side by side a user also has to complete any work at some specific dates. A person having large number of task to be done at different dead line dates also have to make manual entries in the separate applications or in the manual diaries and he have to check those notes daily to know about which project’s deadline date is reached. All these tasks are very time consuming and very complex. 
 
@@ -65,10 +73,25 @@ The entire project is developed in 'C' language, which makes the user feel simpl
 
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+| ID | Description | Category | Status | 
+| ----- | ----- | ------- | ---------|
+| HR01 | User shall be able to add new record | Techincal | IMPLEMENTED | 
+| HR02 | User shall be able to view record by providing authorized password | Techincal |  IMPLEMENTED  |
+| HR03 | User shall be able to edit record | Techincal |  IMPLEMENTED  |
+| HR04 | User shall be able to delete record | Techincal |  IMPLEMENTED  |
+| HR05 | User shall be able to edit password | Techincal |  IMPLEMENTED  |
+| HR06 | User shall be able to read data from a file | Techincal |  IMPLEMENTED  |
+| HR07 | Data should not be lost in case of faliure | Scenario | FUTURE |
+
 
 
 ##  Low level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
+| ID | Description | HLR ID | Status (Implemented/Future) |
+| ------ | --------- | ------ | ----- |
+| LR01 | (1). New record shall be added by providing all the asked information                                                                                                    (2). Password should be authorized from persistant file or else the user would be able to add the memo deatils on to file. | HR01 |  IMPLEMENTED  |
+| LR02 | viewing data should be possible in 2 ways (1) User can view the whole records stored on that particular day (2). User can view the data of fixed time mentioned during adding that particular record | HR02 |  IMPLEMENTED |
+| LR03 | While viewing all the records, only 3 attempts for entering right password will be provided for the user. only on authorized password he can view records by entering the date of recored he wanted to view.| HR02 | IMPLEMENTED |
+| LR04 | If user enters wrong password "Access Denied" message would be displayed | HR02 |  IMPLEMENTED  |
+| LR05 | User can also edit the record by entering the date and time of the record he would like to edit | HR03 |  IMPLEMENTED  |
+| LR06 | User can delete a particular record or the entire records of one particular day by entering specific details | HR04 |  IMPLEMENTED  |
+| LR05 | User can edit password by entering his old password and confirming the new passowrd. Hence, next time he can lofin with the new password created | HR05 |  IMPLEMENTED |
