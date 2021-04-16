@@ -34,3 +34,4 @@ struct record
     char note[500];
 
 } ;
+#endif
