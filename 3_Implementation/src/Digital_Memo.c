@@ -122,7 +122,7 @@ void addrecord( )
 
     fflush(stdin);
 
-    gets(filename,15,stdin);
+    fgets(filename,15,stdin);
 
     fp = fopen (filename, "ab+" ) ;
 
@@ -269,7 +269,7 @@ void viewrecord( )
 
         fflush(stdin);
 
-        gets(filename,14,stdin);
+        fgets(filename,14,stdin);
 
         fpte = fopen ( filename, "rb" ) ;
 
@@ -427,7 +427,7 @@ void editrecord()
 
         fflush(stdin);
 
-        gets(filename,14,stdin);
+        fgets(filename,14,stdin);
 
         printf("\n\tENTER TIME:[hh:mm]:");
 
@@ -1075,7 +1075,7 @@ void deleterecord( )
 
                 fflush(stdin);
 
-                gets(filename,15,stdin);
+                fgets(filename,15,stdin);
 
                 fp = fopen (filename, "wb" ) ;
 
@@ -1107,7 +1107,7 @@ void deleterecord( )
 
                 fflush(stdin);
 
-                gets(filename,15,stdin);
+                fgets(filename,15,stdin);
 
                 fp = fopen (filename, "rb" ) ;
 
