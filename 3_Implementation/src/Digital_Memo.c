@@ -506,7 +506,7 @@ void editrecord()
 
                         printf("\nNEW TIME:[hh:mm]:");
 
-                        fgets(customer.time,6);
+                        fgets(customer.time,6,stdin);
 
                         break;
 
@@ -542,7 +542,7 @@ void editrecord()
 
                         printf("\nNOTE:");
 
-                        gets(customer.note,500,stdin);
+                        fgets(customer.note,500,stdin);
 
                         break;
 
