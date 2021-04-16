@@ -188,25 +188,25 @@ void addrecord( )
 
             fflush(stdin);
 
-            fgets(e.name);
+            gets(e.name);
 
             fflush(stdin);
 
             printf("\tENTER PLACE:");
 
-            fgets(e.place);
+            gets(e.place);
 
             fflush(stdin);
 
             printf("\tENTER DURATION:");
 
-            fgets(e.duration);
+            gets(e.duration);
 
             fflush(stdin);
 
             printf("\tNOTE:");
 
-            fgets(e.note);
+            gets(e.note);
 
             fwrite ( &e, sizeof ( e ), 1, fp ) ;
 
@@ -337,7 +337,7 @@ void viewrecord( )
 
             printf("\nENTER TIME:[hh:mm]:");
 
-            fgets(time);
+            gets(time);
 
             while ( fread ( &customer, sizeof ( customer ), 1, fpte ) == 1 )
 
@@ -431,7 +431,7 @@ void editrecord()
 
         printf("\n\tENTER TIME:[hh:mm]:");
 
-        fgets(time);
+        gets(time);
 
         fpte = fopen ( filename, "rb+" ) ;
 
@@ -524,7 +524,7 @@ void editrecord()
 
                         printf("\nNEW MEETING PLACE:");
 
-                        fgets(customer.place);
+                        gets(customer.place);
 
                         break;
 
@@ -533,7 +533,7 @@ void editrecord()
 
                         printf("\nDURATION:");
 
-                        fgets(customer.duration);
+                        gets(customer.duration);
 
                         break;
 
@@ -542,7 +542,7 @@ void editrecord()
 
                         printf("\nNOTE:");
 
-                        fgets(customer.note);
+                        gets(customer.note);
 
                         break;
 
@@ -551,23 +551,23 @@ void editrecord()
 
                         printf("\nNEW TIME:[hh:mm]:");
 
-                        fgets(customer.time);
+                        gets(customer.time);
 
                         printf("\nNEW MEETING PERSON:");
 
-                        fgets(customer.name);
+                        gets(customer.name);
 
                         printf("\nNEW MEETING PLACE:");
 
-                        fgets(customer.place);
+                        gets(customer.place);
 
                         printf("\nDURATION:");
 
-                        fgets(customer.duration);
+                        gets(customer.duration);
 
                         printf("\nNOTE:");
 
-                        fgets(customer.note);
+                        gets(customer.note);
 
                         break;
 
@@ -1107,7 +1107,7 @@ void deleterecord( )
 
                 fflush(stdin);
 
-                fgets(filename,15,stdin);
+                gets(filename,15,stdin);
 
                 fp = fopen (filename, "rb" ) ;
 
@@ -1145,7 +1145,7 @@ void deleterecord( )
 
                 fflush(stdin);
 
-                fgets(time);
+                gets(time);
 
                 while(fread(&file,sizeof(file),1,fp)==1)
 
