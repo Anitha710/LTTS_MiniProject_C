@@ -1,5 +1,6 @@
 # Architecture
 
+It includes both Behaviour and Structure Diagrams in respective folders.
 
 
 ## Tools 
