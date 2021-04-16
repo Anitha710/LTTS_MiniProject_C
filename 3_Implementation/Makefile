@@ -2,8 +2,8 @@ PROJ_NAME = Digital_Memo
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 COV_SRC = test_operations.c
 
-SRC = project_main.c\
-src/calculator_operations.c
+SRC = main.c\
+src/Digital_Memo.c
 
 # All test source files
 TEST_SRC = src/Digital_Memo.c\
