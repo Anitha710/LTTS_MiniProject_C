@@ -30,7 +30,7 @@ personaldiarymanagement.o:Digital_Memo.c
 	gcc -c -Wall Digital_Memo.c
 coverage:
 		
-	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) $(SRC) -o $(call FixPath, $(TEST_PROJ_NAME).$(EXEC))
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) $(SRC) 
 	gcov -a $(COV_SRC)
 	$(RM) *.$(EXEC)
 	$(RM) *.gcda
