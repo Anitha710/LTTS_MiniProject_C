@@ -3,7 +3,7 @@
 #define PROJECT_NAME    "Digital_Memo"
 
 /* Prototypes for all the test functions */
-int test_password(void);
+
 
 void test_addrecord(void);
 
@@ -27,7 +27,7 @@ int main()
   UNITY_BEGIN();
 
 /* Run Test functions */
-  RUN_TEST(test_password);
+ 
   RUN_TEST(test_addrecord);
   RUN_TEST(test_viewrecord);
   RUN_TEST(test_editrecord);
@@ -39,9 +39,7 @@ int main()
 }
 
 /* Write all the test functions */ 
-int test_password(void){
- 
-}
+
 void test_addrecord(void) {
  
 }
