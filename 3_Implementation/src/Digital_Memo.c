@@ -72,7 +72,7 @@ int main()
 
             printf("\n\n\t\tTHANK YOU FOR USING THE PERSONAL DIARY MANAGEMENT SYSTEM ");
 
-            getch();
+            getchar();
 
             exit(0);
 
@@ -82,7 +82,7 @@ int main()
 
             printf("\nPRESS ANY KEY TO TRY AGAIN");
 
-            getch();
+            getchar();
 
             break;
 
@@ -140,7 +140,7 @@ void addrecord( )
 
             printf("\nPRESS ANY KEY TO EXIT");
 
-            getch();
+            getchar();
 
             return ;
 
@@ -226,7 +226,7 @@ void addrecord( )
 
     printf("\n\n\tPRESS ANY KEY TO EXIT...");
 
-    getch();
+    getchar();
 
 }
 
@@ -281,7 +281,7 @@ void viewrecord( )
 
             printf("PRESS ANY KEY TO EXIT...");
 
-            getch();
+            getchar();
 
             return ;
 
@@ -443,7 +443,7 @@ void editrecord()
 
             printf("\nPRESS ANY KEY TO GO BACK");
 
-            getch();
+            getchar();
 
             return;
 
@@ -574,7 +574,7 @@ void editrecord()
                     case 7:
                         printf("\nPRESS ANY KEY TO GO BACK...\n");
 
-                        getch();
+                        getchar();
 
                         return ;
 
@@ -671,7 +671,7 @@ void editrecord()
 
     printf("\tPRESS ENTER TO EXIT EDITING MENU.");
 
-    getch();
+    getchar();
 
 }
 // Password function is called to authenticate the user with the maximum of three trials only
@@ -697,7 +697,7 @@ int password()
 
         printf("\n\n\tENTER THE PASSWORD:");
 
-        pass[0]=getch();
+        pass[0]=getchar();
 
         while(pass[i]!='\r')
 
@@ -715,7 +715,7 @@ int password()
 
                 printf("\b");
 
-                pass[i]=getch();
+                pass[i]=getchar();
 
             }
 
@@ -727,7 +727,7 @@ int password()
 
                 i++;
 
-                pass[i]=getch();
+                pass[i]=getchar();
 
             }
 
@@ -743,7 +743,7 @@ int password()
 
             printf("\nERROR WITH THE SYSTEM FILE...[FILE MISSING]\n");
 
-            getch();
+            getchar();
 
             return 1;
 
@@ -797,7 +797,7 @@ int password()
 
     printf("\n\n\t::YOU ENTERED WRONG PASSWORD::YOU ARE NOT ALLOWED TO ACCESS ANY FILE::\n\n\tPRESS ANY KEY TO GO BACK...");
 
-    getch();
+    getchar();
 
     return 1;
 
@@ -833,7 +833,7 @@ void editpassword()
 
             printf("SYSTEM ERROR...");
 
-            getch();
+            getchar();
 
             return ;
 
@@ -843,7 +843,7 @@ void editpassword()
 
         printf("\nSYSTEM RESTORED...\nYOUR PASSWORD IS 'ENTER'\n PRESS ENTER TO CHANGE PASSWORD\n\n");
 
-        getch();
+        getchar();
 
     }
 
@@ -875,7 +875,7 @@ void editpassword()
 
             fflush(stdin);
 
-            pass[0]=getch();
+            pass[0]=getchar();
 
             while(pass[i]!='\r')
 
@@ -893,7 +893,7 @@ void editpassword()
 
                     printf("\b");
 
-                    pass[i]=getch();
+                    pass[i]=getchar();
 
                 }
 
@@ -905,7 +905,7 @@ void editpassword()
 
                     i++;
 
-                    pass[i]=getch();
+                    pass[i]=getchar();
 
                 }
 
@@ -917,7 +917,7 @@ void editpassword()
 
             printf("\n\tCONFIRM PASSWORD:");
 
-            confirm[0]=getch();
+            confirm[0]=getchar();
 
             while(confirm[i]!='\r')
 
@@ -935,7 +935,7 @@ void editpassword()
 
                     printf("\b");
 
-                    confirm[i]=getch();
+                    confirm[i]=getchar();
 
                 }
 
@@ -947,7 +947,7 @@ void editpassword()
 
                     i++;
 
-                    confirm[i]=getch();
+                    confirm[i]=getchar();
 
                 }
 
@@ -967,7 +967,7 @@ void editpassword()
 
                     printf("\n\t\tSYSTEM ERROR");
 
-                    getch();
+                    getchar();
 
                     return ;
 
@@ -1010,7 +1010,7 @@ void editpassword()
 
     printf("\n\n\tPASSWORD CHANGED...\n\n\tPRESS ANY KEY TO GO BACK...");
 
-    getch();
+    getchar();
 
 }
 
@@ -1087,7 +1087,7 @@ void deleterecord( )
 
                     printf("\nPRESS ANY KEY TO GO BACK.");
 
-                    getch();
+                    getchar();
 
                     return ;
 
@@ -1119,7 +1119,7 @@ void deleterecord( )
 
                     printf("\nPRESS ANY KEY TO GO BACK.");
 
-                    getch();
+                    getchar();
 
                     return ;
 
@@ -1135,7 +1135,7 @@ void deleterecord( )
 
                     printf("\nPRESS ANY KEY TO GO BACK");
 
-                    getch();
+                    getchar();
 
                     return ;
 
@@ -1190,6 +1190,6 @@ void deleterecord( )
 
     printf("\n\n\tPRESS ANY KEY TO EXIT...");
 
-    getch();
+    getchar();
 
 }
