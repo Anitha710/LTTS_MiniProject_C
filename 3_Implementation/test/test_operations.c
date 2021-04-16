@@ -1,5 +1,5 @@
 #include "unity.h"
-#include <train_structs.h>
+#include <header.h>
 #define PROJECT_NAME    "Digital_Memo"
 
 /* Prototypes for all the test functions */
