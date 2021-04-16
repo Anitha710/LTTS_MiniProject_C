@@ -194,19 +194,19 @@ void addrecord( )
 
             printf("\tENTER PLACE:");
 
-            gets(e.place);
+            fgets(e.place,25,stdin);
 
             fflush(stdin);
 
             printf("\tENTER DURATION:");
 
-            gets(e.duration);
+            fgets(e.duration,10,stdin);
 
             fflush(stdin);
 
             printf("\tNOTE:");
 
-            gets(e.note);
+            fgets(e.note,500,stdin);
 
             fwrite ( &e, sizeof ( e ), 1, fp ) ;
 
@@ -337,7 +337,7 @@ void viewrecord( )
 
             printf("\nENTER TIME:[hh:mm]:");
 
-            gets(time);
+            fgets(time,6,stdin);
 
             while ( fread ( &customer, sizeof ( customer ), 1, fpte ) == 1 )
 
@@ -431,7 +431,7 @@ void editrecord()
 
         printf("\n\tENTER TIME:[hh:mm]:");
 
-        gets(time);
+        fgets(time,6,stdin);
 
         fpte = fopen ( filename, "rb+" ) ;
 
@@ -506,7 +506,7 @@ void editrecord()
 
                         printf("\nNEW TIME:[hh:mm]:");
 
-                        gets(customer.time);
+                        fgets(customer.time,6);
 
                         break;
 
@@ -515,7 +515,7 @@ void editrecord()
 
                         printf("\nNEW MEETING PERSON:");
 
-                        gets(customer.name);
+                        fgets(customer.name,30,stdin);
 
                         break;
 
@@ -524,7 +524,7 @@ void editrecord()
 
                         printf("\nNEW MEETING PLACE:");
 
-                        gets(customer.place);
+                        fgets(customer.place,25,stdin);
 
                         break;
 
@@ -533,7 +533,7 @@ void editrecord()
 
                         printf("\nDURATION:");
 
-                        gets(customer.duration);
+                        fgets(customer.duration,10,stdin);
 
                         break;
 
@@ -542,7 +542,7 @@ void editrecord()
 
                         printf("\nNOTE:");
 
-                        gets(customer.note);
+                        gets(customer.note,500,stdin);
 
                         break;
 
@@ -551,23 +551,23 @@ void editrecord()
 
                         printf("\nNEW TIME:[hh:mm]:");
 
-                        gets(customer.time);
+                        fgets(customer.time,6,stdin);
 
                         printf("\nNEW MEETING PERSON:");
 
-                        gets(customer.name);
+                        fgets(customer.name,30,stdin);
 
                         printf("\nNEW MEETING PLACE:");
 
-                        gets(customer.place);
+                        fgets(customer.place,25,stdin);
 
                         printf("\nDURATION:");
 
-                        gets(customer.duration);
+                        fgets(customer.duration,10,stdin);
 
                         printf("\nNOTE:");
 
-                        gets(customer.note);
+                        fgets(customer.note,500,stdin);
 
                         break;
 
@@ -1107,7 +1107,7 @@ void deleterecord( )
 
                 fflush(stdin);
 
-                gets(filename,15,stdin);
+                fgets(filename,15,stdin);
 
                 fp = fopen (filename, "rb" ) ;
 
