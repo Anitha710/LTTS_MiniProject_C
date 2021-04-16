@@ -122,7 +122,7 @@ void addrecord( )
 
     fflush(stdin);
 
-    gets(filename);
+    fgets(filename);
 
     fp = fopen (filename, "ab+" ) ;
 
