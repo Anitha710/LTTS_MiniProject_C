@@ -1,11 +1,9 @@
-PROJECT_NAME = Digital_Memo
+PROJ_NAME = Digital_Memo
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
+COV_SRC = test_operations.c
 
-# Output directory
-BUILD = build
-
-# All source code files
-SRC = main.c\
-src/Digital_Memo.c
+SRC = project_main.c\
+src/calculator_operations.c
 
 # All test source files
 TEST_SRC = src/Digital_Memo.c\
@@ -18,47 +16,19 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 INC	= -Iinc\
 -Iunity\
 
-#Library Inlcudes
-#if working with CUnit 
-#INCLUDE_LIBS = -lcunit
-INCLUDE_LIBS =
 
-# Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
-# Document files
-DOCUMENTATION_OUTPUT = documentation/html
+all: pdm
 
-# Default target built
-$(PROJECT_NAME):all
+pdm:main.o Digital_Memo.o
+	gcc -Wall -o pdm main.o Digital_Memo.o
 
-# Run the target even if the matching name exists
-.PHONY: run clean test doc all
+main.o:main.c
+	gcc -c -Wall main.c
 
-all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out -lm
-
-# Call `make run` to run the application
-run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
-
-# Document the code using Doxygen
-#doc:
-#	make -C ./documentation
-
-# Build and run the unit tests
-test:$(BUILD)
-	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lm
+personaldiarymanagement.o:Digital_Memo.c
+	gcc -c -Wall Digital_Memo.c
+coverage:
+		
+	gcc -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
 	./$(TEST_OUTPUT)
-#Coverage
-coverageCheck:$(BUILD)
-	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
-	./$(TEST_OUTPUT)
-
-# Remove all the built files, invoke by `make clean`
-clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
-
-# Create new build folder if not present
-$(BUILD):
-	mkdir build
