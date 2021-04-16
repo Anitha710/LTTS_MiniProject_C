@@ -1145,7 +1145,7 @@ void deleterecord( )
 
                 fflush(stdin);
 
-                gets(time);
+                fgets(time,6,stdin);
 
                 while(fread(&file,sizeof(file),1,fp)==1)
 
