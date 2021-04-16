@@ -8,3 +8,6 @@ These Diagrams shows how the system behaves and interacts with itself and other 
 ## Activity Diagram 
 
 ![image](https://user-images.githubusercontent.com/64318581/114749709-d592d580-9d70-11eb-858d-80ea0dbc5896.png)
+## State Machine Diagram
+
+![image](https://user-images.githubusercontent.com/64318581/114987137-7210c100-9eb2-11eb-8b50-d44b50eb1254.png)
