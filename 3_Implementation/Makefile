@@ -1,3 +1,8 @@
+PROJ_NAME = Digital_Memo
+TEST_PROJ_NAME = Test_$(PROJ_NAME)
+
+SRC =src/Digital_Memo.c
+
 all: pdm
 
 pdm:main.o Digital_Memo.o
