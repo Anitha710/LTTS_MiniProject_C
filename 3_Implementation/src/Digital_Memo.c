@@ -188,7 +188,7 @@ void addrecord( )
 
             fflush(stdin);
 
-            gets(e.name);
+            fgets(e.name,30,stdin);
 
             fflush(stdin);
 
