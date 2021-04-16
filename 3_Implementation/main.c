@@ -72,7 +72,7 @@ int main()
 
             printf("\n\n\t\tTHANK YOU FOR USING THE PERSONAL DIARY MANAGEMENT SYSTEM ");
 
-            getch();
+            getchar();
 
             exit(0);
 
@@ -82,7 +82,7 @@ int main()
 
             printf("\nPRESS ANY KEY TO TRY AGAIN");
 
-            getch();
+            getchar();
 
             break;
 
